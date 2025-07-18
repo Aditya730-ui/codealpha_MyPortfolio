@@ -1,0 +1,974 @@
+.colourletter{
+    color: rgb(253, 6, 6);
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+
+body, html {
+  overflow-x: hidden; 
+}
+
+.name{
+    margin:30px 250px;
+    font-size: 3.5rem;
+}
+.header li{
+    display: flex;
+justify-content: end;
+margin: 30px 0px;
+margin-top: -100px;
+font-size: 1.5rem;
+}
+.header{
+    
+    width:90vw;
+   
+
+}
+.header li ul:hover{
+       text-decoration: underline;
+       text-decoration-color:  rgb(253, 6, 6);
+        text-decoration-thickness: 5px;
+       cursor: pointer;
+       transition: 0.5s;
+}
+.header li ul{
+    padding:  0px 25px;
+}
+.header li ul a{
+    text-decoration: none;
+    color: white;
+}
+.image{
+    background-image: url("https://i.pinimg.com/1200x/fa/7c/f0/fa7cf0a9b0c3c6975be0bd206b2edffa.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position:inherit;
+  
+    width: 800px;
+    height: 900px;
+  
+    
+}
+.content{
+   
+    display: flex;
+   
+}
+.intro{
+    width: 500px;
+    
+    margin:  auto 300px;
+    
+}
+.intro p{
+    font-size: 5rem;
+    margin-top: 1px;
+}
+.intro h2{
+    padding:30px 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 2rem;
+
+}
+.about{
+    
+   display: flex;
+}
+.myimage{
+    background-image: url("https://i.pinimg.com/736x/ca/c6/d8/cac6d852725aa673ffe24f9f955e6ba1.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position:inherit;
+    margin: 340px 300px ;
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+}
+.myinfo{
+    
+    width:40vw ;
+    position: relative;
+    right: 130px;
+}
+.myinfo h1{
+    padding: 190px;
+    font-size: 5rem;
+}
+.myinfo p{
+    margin-top: -200px;
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+.tabs{
+    display: flex;
+    flex-direction: column;
+    
+    height: 55vh;
+}
+
+.tabbtn{
+    display: flex;
+}
+.tabbtn button{
+    height: 80px;
+    width: 30vw;
+    background-color: black;
+    color:white ;
+    margin:15px ;
+    font-size: 1.4rem;
+   border-radius: 20px;
+    outline: none;
+  box-shadow: none;
+  border: none;
+}
+.tabbtn button:hover{
+    text-decoration: underline;
+       text-decoration-color:  rgb(253, 6, 6);
+        text-decoration-thickness: 5px;
+       cursor: pointer;
+       transition: 0.5s;
+}
+.tabbtn button.active {
+    background-color: rgb(253, 6, 6);
+    color: white;
+}
+.tabs .skills,
+.tabs .experience,
+.tabs .education {
+    display: none;
+}
+.tabs .active {
+    display: block;
+}
+.tabbuttons{
+    border: 2px solid green;
+}
+.skills li ul{
+    color: rgb(253, 6, 6); 
+    font-size: 1.5rem;
+   
+}
+.skills{
+    font-size: 1.3rem;
+    padding: 10px;
+  
+}
+.experience{
+     font-size: 1.3rem;
+    padding: 10px;
+   
+}
+.experience li ul{
+    color: rgb(253, 6, 6);
+    font-size: 1.5rem; 
+}
+.education{
+     font-size: 1.3rem;
+    padding: 10px;
+    
+}
+.education li ul{
+    color: rgb(253, 6, 6); 
+    font-size: 1.5rem;
+}
+.services{
+    height: 65vh;
+    
+    display: flex;
+    justify-content: center;
+}
+.serviceheading{
+    font-size: 4rem;
+    margin: 20px 200px;
+}
+.servicecards{
+    height:45vh ;
+    /* border: 2px solid red; */
+    width: 600px;
+    margin: 15px;
+    background-color:rgb(31, 28, 28) ;
+    border-radius: 25px;
+    padding: 20px;
+     transition: all 0.3s ease;
+       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+       transform: translateY(0);
+}
+.servicecards img{
+    height: 90px;
+    filter: invert(1);
+    margin: 30px 40px;
+}
+.servicecards h1{
+    font-size: 2.5rem;
+    padding:  0px 20px;
+}
+.servicecards p{
+    font-size: 1.5rem;
+    padding: 2px 20px;
+}
+.servicecards a{
+    font-size:1.4rem ;
+    color:white ;
+    text-decoration: none;
+   padding: 20px 20px;
+}
+.servicecards:hover{
+    background-color: #f73857; /* pinkish */
+    transform: translateY(-20px); /* move up */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* deeper shadow */
+    cursor: pointer;
+}
+.project{
+     font-size: 4rem;
+    margin: 20px 200px;
+}
+
+
+
+.myprojects{
+    height: 55vh;
+    
+    display: flex;
+    justify-content: center;
+}
+
+  .works1 {
+    height: 45vh;
+    width: 600px;
+    margin: 15px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    background-image: url("https://i.pinimg.com/736x/2e/89/e3/2e89e310f49a76343932e0d216d6323b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(31, 28, 28); /* fallback */
+    transition: transform 0.4s ease, background-size 0.4s ease;
+    cursor: pointer;
+}
+
+/* Pink overlay using pseudo-element */
+.works1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(213, 7, 66, 0.852); /* transparent pink */
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+/* Show pink overlay and zoom background on hover */
+.works1:hover::before {
+    opacity: 1;
+}
+
+.works1:hover {
+    transform: scale(1.03);
+    background-size: 110%;
+}
+
+/* Text hidden by default */
+.works1 h3,
+.works1 p,.works1 button {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    width: 400px;
+    text-align: center;
+    padding: 0 10px;
+    margin-left: 90px;
+    z-index: 2;
+    transition: opacity 0.4s ease;
+    
+}
+
+.works1 h3 {
+    top: 20%;
+   
+}
+
+.works1 p {
+    top: 30%;
+    
+}
+
+/* Show text on hover */
+.works1:hover h3,
+.works1:hover p,.works1:hover button {
+    opacity: 1;
+    font-size: 1.5rem;
+}
+.works1 button{
+top: 70%;
+
+width: 60px;
+border-radius: 50%;
+height: 60px;
+margin:  auto 250px;
+cursor: pointer;
+}
+.works1 img{
+    width: 40px;
+    margin: auto;
+}
+
+
+.works2 {
+    height: 45vh;
+    width: 600px;
+    margin: 15px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    background-image: url("https://i.pinimg.com/736x/66/23/03/662303a7284e0cde994d832e5df7d3c9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(31, 28, 28); /* fallback */
+    transition: transform 0.4s ease, background-size 0.4s ease;
+    cursor: pointer;
+}
+
+/* Pink overlay using pseudo-element */
+.works2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(213, 7, 66, 0.852); /* transparent pink */
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+/* Show pink overlay and zoom background on hover */
+.works2:hover::before {
+    opacity: 1;
+}
+
+.works2:hover {
+    transform: scale(1.03);
+    background-size: 110%;
+}
+
+/* Text hidden by default */
+.works2 h3,
+.works2 p,.works2 button {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    width: 400px;
+    text-align: center;
+    padding: 0 10px;
+    margin-left: 90px;
+    z-index: 2;
+    transition: opacity 0.4s ease;
+    
+}
+
+.works2 h3 {
+    top: 20%;
+   
+}
+
+.works2 p {
+    top: 30%;
+    
+}
+
+/* Show text on hover */
+.works2:hover h3,
+.works2:hover p,.works2:hover button {
+    opacity: 1;
+    font-size: 1.5rem;
+}
+.works2 button{
+top: 70%;
+
+width: 60px;
+border-radius: 50%;
+height: 60px;
+margin:  auto 250px;
+cursor: pointer;
+}
+.works2 img{
+    width: 40px;
+    margin: auto;
+}
+
+
+.works3 {
+    height: 45vh;
+    width: 600px;
+    margin: 15px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    background-image: url(" https://i.pinimg.com/1200x/97/d5/78/97d578064954c4d779260757cd7d8e7c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(31, 28, 28); /* fallback */
+    transition: transform 0.4s ease, background-size 0.4s ease;
+    cursor: pointer;
+}
+
+/* Pink overlay using pseudo-element */
+.works3::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(213, 7, 66, 0.852); /* transparent pink */
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+/* Show pink overlay and zoom background on hover */
+.works3:hover::before {
+    opacity: 1;
+}
+
+.works3:hover {
+    transform: scale(1.03);
+    background-size: 110%;
+}
+
+/* Text hidden by default */
+.works3 h3,
+.works3 p,.works3 button {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    width: 400px;
+    text-align: center;
+    padding: 0 10px;
+    margin-left: 90px;
+    z-index: 2;
+    transition: opacity 0.4s ease;
+    
+}
+
+.works3 h3 {
+    top: 20%;
+   
+}
+
+.works3 p {
+    top: 30%;
+    
+}
+
+/* Show text on hover */
+.works3:hover h3,
+.works3:hover p,.works3:hover button {
+    opacity: 1;
+    font-size: 1.5rem;
+}
+.works3 button{
+top: 70%;
+
+width: 60px;
+border-radius: 50%;
+height: 60px;
+margin:  auto 250px;
+cursor: pointer;
+}
+.works3 img{
+    width: 40px;
+    margin: auto;
+}
+.extra{
+    /* height: 55vh;
+    border: 2px solid blueviolet;
+    display: flex;
+    justify-content: center;
+    display: none; */
+    height: 55vh;
+    
+    justify-content: center;
+    opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+  display: flex;
+}
+.extracard1,.extracard2,.extracard3{
+    height: 45vh;
+    width: 600px;
+    margin: 15px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    background-image: url(" https://i.pinimg.com/1200x/97/d5/78/97d578064954c4d779260757cd7d8e7c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(31, 28, 28); /* fallback */
+    transition: transform 0.4s ease, background-size 0.4s ease;
+    cursor: pointer;
+}
+
+
+        .extra.show {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+       
+ .see {
+  width: 130px;
+  height: 60px;
+  border-radius: 30px;
+  border: 4px solid brown;
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.4s ease, transform 0.4s ease;
+  transform: translateY(-500px); /* default downward position */
+  margin-left: 47%;
+}
+
+.see:hover {
+  background-color: rgb(253, 6, 6);
+}
+
+/* When extra is shown, move button upward */
+.see.down {
+  transform: translateY(0px);
+}
+ .extracard3 {
+    height: 45vh;
+    width: 600px;
+    margin: 15px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    background-image: url("https://i.pinimg.com/1200x/d4/32/34/d4323488fa6255bcf89888aae914d6ae.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(31, 28, 28); /* fallback */
+    transition: transform 0.4s ease, background-size 0.4s ease;
+    cursor: pointer;
+}
+
+/* Pink overlay using pseudo-element */
+.extracard3::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(213, 7, 66, 0.852); /* transparent pink */
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+/* Show pink overlay and zoom background on hover */
+.extracard3:hover::before {
+    opacity: 1;
+}
+
+.extracard3:hover {
+    transform: scale(1.03);
+    background-size: 110%;
+}
+
+/* Text hidden by default */
+.extracard3 h3,
+.extracard3 p,.extracard3 button {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    width: 400px;
+    text-align: center;
+    padding: 0 10px;
+    margin-left: 90px;
+    z-index: 2;
+    transition: opacity 0.4s ease;
+    
+}
+
+.extracard3 h3 {
+    top: 20%;
+   
+}
+
+.extracard3 p {
+    top: 30%;
+    
+}
+
+/* Show text on hover */
+.extracard3:hover h3,
+.extracard3:hover p,.extracard3:hover button {
+    opacity: 1;
+    font-size: 1.5rem;
+}
+.extracard3 button{
+top: 70%;
+
+width: 60px;
+border-radius: 50%;
+height: 60px;
+margin:  auto 250px;
+cursor: pointer;
+}
+.extracard3 img{
+    width: 40px;
+    margin: auto;
+}
+ .extracard2 {
+    height: 45vh;
+    width: 600px;
+    margin: 15px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    background-image: url("https://i.pinimg.com/1200x/03/85/e4/0385e49ece3121d3a08b595c52c14527.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(31, 28, 28); /* fallback */
+    transition: transform 0.4s ease, background-size 0.4s ease;
+    cursor: pointer;
+}
+
+/* Pink overlay using pseudo-element */
+.extracard2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(213, 7, 66, 0.852); /* transparent pink */
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+/* Show pink overlay and zoom background on hover */
+.extracard2:hover::before {
+    opacity: 1;
+}
+
+.extracard2:hover {
+    transform: scale(1.03);
+    background-size: 110%;
+}
+
+/* Text hidden by default */
+.extracard2 h3,
+.extracard2 p,.extracard2 button {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    width: 400px;
+    text-align: center;
+    padding: 0 10px;
+    margin-left: 90px;
+    z-index: 2;
+    transition: opacity 0.4s ease;
+    
+}
+
+.extracard2 h3 {
+    top: 20%;
+   
+}
+
+.extracard2 p {
+    top: 30%;
+    
+}
+
+/* Show text on hover */
+.extracard2:hover h3,
+.extracard2:hover p,.extracard2:hover button {
+    opacity: 1;
+    font-size: 1.5rem;
+}
+.extracard2 button{
+top: 70%;
+
+width: 60px;
+border-radius: 50%;
+height: 60px;
+margin:  auto 250px;
+cursor: pointer;
+}
+.extracard2 img{
+    width: 40px;
+    margin: auto;
+}
+.extracard1 {
+    height: 45vh;
+    width: 600px;
+    margin: 15px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    background-image: url("https://i.pinimg.com/1200x/a4/03/e2/a403e24707e522621574ced2b9538930.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(31, 28, 28); /* fallback */
+    transition: transform 0.4s ease, background-size 0.4s ease;
+    cursor: pointer;
+}
+
+/* Pink overlay using pseudo-element */
+.extracard1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(213, 7, 66, 0.852); /* transparent pink */
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+/* Show pink overlay and zoom background on hover */
+.extracard1:hover::before {
+    opacity: 1;
+}
+
+.extracard1:hover {
+    transform: scale(1.03);
+    background-size: 110%;
+}
+
+/* Text hidden by default */
+.extracard1 h3,
+.extracard1 p,.extracard1 button {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    width: 400px;
+    text-align: center;
+    padding: 0 10px;
+    margin-left: 90px;
+    z-index: 2;
+    transition: opacity 0.4s ease;
+    
+}
+
+.extracard1 h3 {
+    top: 20%;
+   
+}
+
+.extracard1 p {
+    top: 30%;
+    
+}
+
+/* Show text on hover */
+.extracard1:hover h3,
+.extracard1:hover p,.extracard1:hover button {
+    opacity: 1;
+    font-size: 1.5rem;
+}
+.extracard1 button{
+top: 70%;
+
+width: 60px;
+border-radius: 50%;
+height: 60px;
+margin:  auto 250px;
+cursor: pointer;
+}
+.extracard1 img{
+    width: 40px;
+    margin: auto;
+}
+
+
+.contacts{
+    display: flex;
+  
+    height: 90vh;
+   transform: translateY(-400px);
+   transition: transform 0.3s ease;
+}
+
+.contactinfo{
+    width: 500px;
+    height: 600px;
+    margin: 80px 250px ;
+    
+}
+.contactinfo h1{
+    font-size: 4rem;
+}
+.mail{
+    filter: invert(1);
+    height: 50px;
+    margin-left: 6px;
+    
+}
+.contactinfo p{
+    margin: -40px 70px;
+    font-size: 1.3rem;
+}
+.phone{
+      filter: invert(1);
+    height: 60px;
+    margin-top: 80px;
+}
+.socialmedia{
+    margin: 50px 6px;
+    
+    margin-top: 80px;
+}
+.socialmedia button{
+    margin: 10px;
+    background-color: black;
+    outline: none;
+  box-shadow: none;
+  border: none;
+  transition: all 0.3s ease;
+  transform: translateY(0);
+    
+}
+.socialmedia button:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.socialmedia button img{
+    filter: invert(1);
+    height: 40px;
+}
+.socialmedia a{
+    text-decoration: none;
+}
+.cv{
+    height: 60px;
+    width: 180px;
+    background-color: rgb(247, 12, 12);
+    color:white ;
+    margin:30px;
+    font-size: 1.4rem;
+   border-radius: 20px;
+    outline: none;
+  box-shadow: none;
+  border: none; 
+  margin-top: -60px;
+}
+.cv:hover{
+    cursor: pointer;
+    background-color: #f73857;
+}
+.contactform{
+  
+    width: 70vw;
+   
+}
+.contactform input{
+    margin: 30px 15vw;
+    height: 60px;
+    width: 25vw;
+    font-size: 1.2rem;
+    border-radius: 12px;
+     background-color:rgb(31, 28, 28) ;
+     color: white;
+     transition: all 0.3s ease;
+     padding: 12px;
+     
+  border: none; 
+}
+.forms{
+    margin-top: 50px;
+}
+.contactform textarea{
+     margin: 30px 15vw;
+    height: 250px;
+    width: 25vw;
+    font-size: 1.2rem;
+    border-radius: 12px;
+     background-color:rgb(31, 28, 28) ;
+     color: white;
+  border: none; 
+  transition: all 0.3s ease;
+   padding: 12px;
+}
+.contactform input:hover{
+    cursor: pointer;
+    height:80px ;
+    width: 28vw;
+
+}
+.contactform textarea:hover{
+    cursor: pointer;
+    height:280px ;
+    width: 28vw;
+}
+.submit{
+    height: 60px;
+    width: 140px;
+    margin:  30px 24vw;
+      background-color: rgb(247, 12, 12);
+      font-size: 1.1rem;
+      color: white;
+      border-radius: 15px;
+      outline: none;
+  box-shadow: none;
+  border: none; 
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: #f73857;
+}
+.contacts.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.scrollup {
+  background-color: black;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: 999;
+  cursor: pointer;
+  display: none;
+}
+.scrollup img{
+    filter: invert(1);
+}
+#msg{
+    color: aquamarine;
+    margin: 7px 21vw;
+    width: 400px;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+

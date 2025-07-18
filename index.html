@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<style>
+
+</style>
+<body>
+    <div class="header">
+        <h1 class="name"><span class="colourletter">A</span>ditya</h1>
+         <div class="hamburger" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+       <li type="none">
+        <ul>Home</ul>
+        <ul><a href="#" onclick="document.querySelector('.about').scrollIntoView({ behavior: 'smooth' });">About</a></ul>
+        <ul><a href="#" onclick="document.querySelector('.servicesection').scrollIntoView({ behavior: 'smooth' });">Services</a></ul>
+        <ul><a href="#" onclick="document.querySelector('.projectsection').scrollIntoView({ behavior: 'smooth' });">Projects</a></ul>
+        <ul><a href="#" onclick="document.querySelector('.contacts').scrollIntoView({ behavior: 'smooth' });">Contact</a></ul>
+        
+       </li> 
+        
+  </div>  
+  <div class="content">
+      <div class="intro">
+        <h2>Full Stack Web Developer</h2>
+        <p>Hi, I'm <span class="colourletter">Aditya</span> Dutta From Kolkata</p>
+      </div>
+      <div class="image"></div>
+  </div>
+  <div class="about">
+    <div class="myimage"></div>
+    <div class="myinfo">
+        <h1>About Me</h1>
+        <p>Passionate Full Stack Developer with experience in building responsive web applications using modern technologies like React, Node.js, and MongoDB. I enjoy solving complex problems, optimizing performance, and continuously learning. I aim to contribute to impactful projects and grow within dynamic development teams.</p>
+        <div class="tabbtn">
+        
+        <button class="tab-button active" data-tab="skills">Skills</button>
+    <button class="tab-button" data-tab="experience">Experience</button>
+    <button class="tab-button" data-tab="education">Education</button>
+        </div>
+        <div class="tabs">
+        
+            <div class="tab-content skills active">
+                
+                <li type="none">
+                    <ul>HTML,CSS</ul>
+                    Proficient in HTML and CSS for creating responsive, user-friendly, and visually appealing web interfaces.
+                    <ul>Node.js and Express.js</ul>
+                   Proficient in Node.js and Express.js for building scalable backend applications, creating RESTful APIs, and handling server-side logic efficiently in full-stack web development projects.
+                    <ul>MongoDb</ul>
+                   Skilled in working with MongoDB, including data modeling, CRUD operations, indexing, and integrating with backend frameworks for full-stack web development.
+                    <ul>React.js</ul>
+                    Skilled in React.js for building dynamic, responsive user interfaces using reusable components, hooks, and state management. Experienced in integrating APIs, optimizing performance, and developing modern single-page applications (SPAs) for full-stack projects.
+
+                </li>
+            </div>
+            <div class="tab-content experience" >
+                 <li type="none">
+                    <ul>BINARY Hackathon</ul>
+                    Proficient in HTML and CSS for creating responsive, user-friendly, and visually appealing web interfaces.
+                    <ul>Intern at KeyGEnCoders (Coding Club of KGEC)</ul>
+                    Intern at Keygen Coders, KGEC (2024–present), skilled in React, Node.js, MongoDB, and responsive design
+                    <ul>SIH Hackathon</ul>
+                    Participated in Smart India Hackathon 2024, showcasing problem-solving skills and teamwork in real-world tech challenges.
+                    <ul>HACK4BENGAL Hackathon</ul>
+                   Participated in Hack4Bengal 2025, collaborating with a dynamic team to build innovative tech solutions. Gained hands-on experience in full stack development, problem-solving, and working under tight deadlines in a competitive hackathon environment.
+
+
+                </li>
+                
+            </div>
+            <div class="tab-content education">
+                 <li type="none">
+                    <ul>2024-Present</ul>
+                   Pursuing B.Tech in Electronics and Communication Engineering at Kalyani Government Engineering College from 2024 to present.
+
+
+                    
+                    <ul>2010-2024</ul>
+                   Completed schooling at Patha Bhavan,Kolkata, building a strong academic foundation with a focus on science and technology, and actively participating in various school events and extracurricular activities.
+                    
+
+                </li>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="servicesection">
+  <h1 class="serviceheading">My Services</h1>
+  <div class="services">
+     <div class="servicecards">
+        <img src="images/code-solid.svg" alt="">
+        <h1> Responsive Web Design</h1>
+        <p>I design responsive websites that adapt to all screen sizes using HTML, CSS, and JavaScript. My focus is on creating clean, user-friendly interfaces that offer a seamless experience across desktops, tablets, and mobile devices.</p>
+        <a href="">Learn More</a>
+     </div>
+     <div class="servicecards">
+        <img src="images/crop-simple-solid.svg" alt="">
+        <h1> DataBase Management</h1>
+        <p>I provide efficient database management services, specializing in MongoDB. My work includes designing schemas, optimizing queries, handling data migrations, and ensuring data security. I focus on scalable, high-performance solutions to support dynamic web applications and real-time user interactions.</p>
+        <a href="">Learn More</a>
+     </div>
+     <div class="servicecards">
+        <img src="images/app-store-ios-brands.svg" alt="">
+        <h1> Project Planning and Maintenance</h1>
+        <p>Experienced in managing projects end-to-end, maintaining web apps with regular updates, bug fixes, and performance optimizations.
+</p>
+
+        <a href="">Learn More</a>
+     </div>
+  </div>
+  <div class="projectsection">
+  <h1 class="project">My Projects</h1>
+  <div class="myprojects">
+    <div class="works1">
+        <h3>Spotify Music Player</h3>
+        <p>Created a responsive Spotify-like music player using HTML, CSS, and JavaScript with features like autoplay, play/pause, track control, volume, and playlist display. Showcases strong front-end and interactive media skills.</p>
+        <a href="https://github.com/Aditya730-ui/codealpha_SpotifyMusicPlayer" target="_blank">
+        <button>
+            <img src="images/icons8-link-50.png" alt="">
+            
+        </button>
+        </a>
+    </div>
+    <div class="works2">
+        <h3>NewsMonkey</h3>
+        <p>NewsMonkey is a React-based news app offering categorized news like sports and technology. It features a single-page design with search and infinite scroll for smooth and continuous browsing.</p>
+        <a href="https://github.com/Aditya730-ui/NewsMonkey" target="_blank">
+        <button>
+            <img src="images/icons8-link-50.png" alt="">
+            
+        </button>
+        </a>
+    </div>
+    <div class="works3">
+       <h3>Calculator</h3>
+        <p>Built a responsive calculator using HTML, CSS, and JavaScript with basic operations, clear, delete, percentage, and keyboard support.</p>
+        <a href="https://github.com/Aditya730-ui/codealpha_calculator" target="_blank">
+        <button>
+            <img src="images/icons8-link-50.png" alt="">  
+        </button>
+        </a> 
+    </div>
+    </div>
+   </div>
+        
+    </div>
+  </div>
+  <div class="extra">
+    <div class="extracard1">
+            <h3>Microsoft Loading Page</h3>
+        <p>Created a Microsoft-style loading page using Tailwind CSS, featuring smooth animations and a clean, modern design. The layout is fully responsive, ensuring consistent appearance across all screen sizes and devices.</p>
+        <a href="https://github.com/Aditya730-ui/microsoft-clone" target="_blank">
+        <button>
+            <img src="images/icons8-link-50.png" alt="">  
+        </button>
+        </a> 
+    </div>
+    <div class="extracard2">
+         <h3>TextUtils</h3>
+        <p>Developed TextUtils, a React-based web app with features like text conversion to uppercase/lowercase, word and character count, text copying to clipboard, and support for both dark and light modes for better user experience.</p>
+        <a href="https://github.com/Aditya730-ui/TextUtils" target="_blank">
+        <button>
+            <img src="images/icons8-link-50.png" alt="">  
+        </button>
+        </a> 
+    </div>
+    <div class="extracard3">
+         <h3>Zomato Clone</h3>
+        <p>Created a responsive Zomato front page using HTML and CSS, replicating the original design with clean layout, modern styling, and intuitive user interface to showcase real-world frontend development skills.</p>
+        <a href="https://github.com/Aditya730-ui/Zomato-clone" target="_blank">
+        <button>
+            <img src="images/icons8-link-50.png" alt="">  
+        </button>
+        </a> 
+    </div>
+  </div>
+  <button class="see">See More</button>
+  <div class="contacts">
+    <div class="contactinfo">
+       <h1>Contact Me</h1>
+       <img src="images/icons8-mail-50.png" alt="" class="mail">
+       <p>adityamyself343@gmail.com</p>
+       <img src="images/icons8-phone-50.png" alt="" class="phone">
+       <p>+91-9748208386</p>
+       <div class="socialmedia">
+        <a href="https://www.facebook.com/profile.php?id=100081707213839" target="_blank">
+            <button>
+                <img src="images/icons8-facebook-logo-50.png" alt="">
+            </button>
+        </a>
+        <a href="https://www.linkedin.com/in/aditya-dutta-5692b0327/" target="_blank">
+            <button>
+                <img src="images/icons8-linkedin-50.png" alt="">
+            </button>
+        </a>
+        <a href="https://www.instagram.com/wtf_awditya?igsh=MWEwYnpjejd4bXBpNA==" target="_blank">
+            <button>
+                <img src="images/icons8-instagram-logo-50.png" alt="">
+            </button>
+        </a>
+       </div>
+       <a href="images/aditya.resumeForCollege.pdf" download="">
+       <button class="cv">Download CV</button>
+       </a>
+    </div>
+    <div class="contactform">
+        <div class="forms">
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Enter your name" required>
+        
+        
+            <input type="number"  name="Phone" placeholder="Enter your phone number" required>
+        
+        
+            <input type="email" name="Email" placeholder="Enter your email id" required>
+       
+        
+          <textarea name="Message" placeholder="Your Message"></textarea>
+          <button class="submit" type="submit">Submit</button>
+        </form>
+        <p id="msg"></p>
+        </div>
+    </div>
+  </div>
+  <button class="scrollup" id="scrollUpBtn" onclick="document.querySelector('.header').scrollIntoView({ behavior: 'smooth' });">
+  <img src="images/icons8-scroll-up-50.png" alt="">
+</button>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
